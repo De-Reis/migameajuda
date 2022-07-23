@@ -1,15 +1,66 @@
 .footer{
-    background-color:#A263C0;
-    height:100px;
-    display:flex;
-    justify-content:center;
-    flex-direction:row;
-    width:100%
+    background: #A263C0;
+    font-size: 12px;
+       
+}
+
+.item {
+    float: left;
+  }
+
+.item .link {
+    font-size: 1.3em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    
+  }
+
+.footer_principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
 }
   
-.footer p{
+.footer_nav p{
     color: white;
-    padding-top:30px;
-    text-align:center;
-    font-size:16px
+    
 }
+
+.footer_redes-sociais {
+    background-color: red;
+    /* justify-content: space-between */
+}
+
+.footer_redes-sociais img {
+    width: 30.83px;
+
+
+}
+
+.footer_principal .footer_redes-sociais {
+     justify-content: space-between
+}
+
+
+.footer_cc {
+    background-color: #d3a3e9;
+}
+
+
+.footer_cc p{
+    color:#A263C0;
+    text-align: center;
+    padding: 8px;
+
+}
+
+body, input, button, textarea{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  

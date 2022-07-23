@@ -1,0 +1,58 @@
+body {
+    padding:0;
+    margin:0
+}
+
+.home-apresentacao {
+    padding: 0 100px;
+    font-size: 1.6rem;
+    color: #a9a9a9;
+    text-align: center;
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.home-apresentacao h3 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.home-apresentacao h4 {
+    padding-bottom: 40px;
+}
+
+.home-apresentacao hr {
+    color: #890ec2;
+}
+
+.home-frase{
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-bottom: 200px; */
+    margin-top: 200px;
+    background-color: #d3a3e9;
+    border-top: 2px solid #A263C0;
+
+
+}
+
+.home-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30vw;
+    height: 40vh;
+
+
+}
+
+.home-frase h4 {
+    padding-top: 200px;
+    color: #A263C0;
+
+
+}

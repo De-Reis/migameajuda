@@ -1,6 +1,8 @@
 import Header from '../../componentes/Header/Header'
 import image from '../../assets/respondidos.png'
-import imageCard1 from '../../assets/floki.jpeg'
+import './respondidos.css'
+
+import list from '../../../dados'
 
 function Respondidos() {
     return (
@@ -11,26 +13,48 @@ function Respondidos() {
             >
                 Pedidos respondidos
             </Header>
-            <div className="container">
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src={imageCard1} className="img-fluid rounded-start" alt="..." />
-                        </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+
+            {
+                list.map(card => {
+                    return (
+                        <div className="container card-container" key={card.id}>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+                                    <div class="panel panel-default">
+                                        <ul class="list-group" id="contact-list">
+                                            <li class="list-group-item">
+                                                <div class="col-xs-12 col-sm-3">
+                                                    <img src={card.imagem} alt="Scott Stevens" class="img-responsive img-circle" />
+                                                </div>
+                                                <div class="col-xs-12 col-sm-9">
+                                                    <span class="name">{card.nome}</span><br />
+                                                    <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
+                                                    <span class="visible-xs"> <span class="text-muted">{card.assunto}</span><br /></span>
+                                                    <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
+                                                    <span class="visible-xs"> <span class="text-muted">{card.abertura}</span><br /></span>
+                                                    <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
+                                                    <span class="visible-xs"> <span class="text-muted">{card.contato}</span><br /></span>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-               <button type="button" className="btn btn-primary btn-lg">Ver mais</button>
-            </div>
+                    )
+                })
+            }
+            
+
+            <button type="button" className="btn btn-primary btn-lg">Ver mais</button>
 
         </>
     )
 }
 
 export default Respondidos
+
+function dados() {
+
+}
