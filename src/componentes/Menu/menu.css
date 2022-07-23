@@ -1,0 +1,38 @@
+
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #cf8e69;
+    height:100px;
+    flex-direction:row;
+    width:100%
+    
+  }
+  
+  .item {
+    float: left;
+  }
+  
+  .item .link {
+    font-size: 1.3em;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  body, input, button, textarea{
+    font: 600 18px Nunito, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
