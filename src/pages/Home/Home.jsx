@@ -22,7 +22,7 @@ function Home() {
                         <input type="password" className="form-control" id="inputPassword2" placeholder="Senha" />
                     </div>
                     <div className="col-auto">
-                        <button type="submit" className="btn btn-primary mb-3">Entrar</button>
+                        <button type="submit" className="btn btn-primary mb-3 botao">Entrar</button>
                     </div>
                 </form>
             </Header>
@@ -32,7 +32,7 @@ function Home() {
                     <h4>
                         Esta plataforma foi pensada e criada para facilitar a sua vida neste curso.
                         Trata-se de uma ferramenta colaborativa onde você pode submeter
-                        seu pedido de ajuda,dúvida ou erro do seu código e aguardar
+                        seu pedido de ajuda, dúvida ou erro do seu código e aguardar
                         que uma miga da turma responda.
                     </h4>
                     <hr></hr>

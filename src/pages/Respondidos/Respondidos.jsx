@@ -1,10 +1,22 @@
+import { useEffect, useState } from 'react'
 import Header from '../../componentes/Header/Header'
-import image from '../../assets/respondidos.png'
+import image from '../../assets/respondidos_dev.svg'
+import axios from 'axios'
 import './respondidos.css'
 
-import list from '../../../dados'
+// import list from '../../../dados'
 
 function Respondidos() {
+    const [chamados, setChamados] = useState([])
+    const baseURL = 'http://localhost:3000/chamados/?status=fechado'
+    
+    useEffect(()=> {
+        axios
+        .get(baseURL)
+        .then((response) => setChamados(response.data))
+    },  [])
+
+
     return (
         <>
             <Header
@@ -15,7 +27,7 @@ function Respondidos() {
             </Header>
 
             {
-                list.map(card => {
+                chamados.map(card => {
                     return (
                         <div className="container card-container" key={card.id}>
                             <div class="row">
@@ -46,8 +58,10 @@ function Respondidos() {
                 })
             }
             
-
-            <button type="button" className="btn btn-primary btn-lg">Ver mais</button>
+            <div className="respon-submeter-botao" >
+            <button type="button" className="btn btn-primary btn-lg respon-submeter">Ver mais</button>
+            </div>
+            
 
         </>
     )
@@ -55,6 +69,6 @@ function Respondidos() {
 
 export default Respondidos
 
-function dados() {
+// function dados() {
 
-}
+// }

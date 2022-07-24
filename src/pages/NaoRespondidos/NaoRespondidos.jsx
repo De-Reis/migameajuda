@@ -1,9 +1,20 @@
+import { useEffect, useState } from 'react'
 import Header from '../../componentes/Header/Header'
-import image from '../../assets/naorespondidos.png'
+import image from '../../assets/naorespondidos_dois.svg'
+import axios from 'axios'
+import './naorespondidos.css'
 
-import list from '../../../dados'
+// import list from '../../../dados'
 
 function NaoRespondidos() {
+    const [chamados, setChamados] = useState([])
+    const baseURL = 'http://localhost:3000/chamados/?status=aberto'
+    
+    useEffect(()=> {
+        axios
+        .get(baseURL)
+        .then((response) => setChamados(response.data))
+    },  [])
     return (
         <>
             <Header
@@ -14,7 +25,7 @@ function NaoRespondidos() {
             </Header>
 
             {
-                list.map(card => {
+                chamados.map(card => {
                     return (
                         <div className="container card-container" key={card.id}>
                             <div class="row">
@@ -44,13 +55,16 @@ function NaoRespondidos() {
                     )
                 })
             }
-            <button type="button" class="btn btn-primary btn-lg">Ver mais</button>
+            <div className="naorespon-submeter-botao" >
+            <button type="button" class="btn btn-primary btn-lg naorespon-submeter">Ver mais</button>
+            </div>
+            
         </>
     )
 }
 
 export default NaoRespondidos
 
-function dados() {
+// function dados() {
 
-}
+// }

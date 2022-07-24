@@ -1,6 +1,8 @@
 import Header from '../../componentes/Header/Header'
 import image from '../../assets/formulario.svg'
 
+import './formulario.css'
+
 function Formulario() {
     return (
         <>
@@ -24,10 +26,15 @@ function Formulario() {
                     <label className="input-group-text" for="inputGroupFile02">Upload</label>
                     <button type="button" className="btn-close" disabled aria-label="Close"></button>
                 </div>
+                <div className="form-submeter-botao">
+                    <button type="button" className="btn btn-primary btn-lg form-submeter">Submeter pedido</button>
+                </div>
+                
             </div>
             
+                
 
-            <button type="button" className="btn btn-primary btn-lg">Submeter pedido</button>
+            
         </>
     )
 }

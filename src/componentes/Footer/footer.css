@@ -32,8 +32,10 @@
 }
 
 .footer_redes-sociais {
-    background-color: red;
-    /* justify-content: space-between */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
 }
 
 .footer_redes-sociais img {
