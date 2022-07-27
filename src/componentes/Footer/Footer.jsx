@@ -17,6 +17,7 @@ function Footer() {
                         </p>
                     </div>
                         <div class="footer_redes-sociais">
+                            <p>Siga-nos:</p>
                             <a className="img__redes" href="https://www.instagram.com/denisexreis/?hl=pt-br" target="_blank">
                                 <img src={imgInstagram} alt="Íconde do Instagram" />
                             </a>

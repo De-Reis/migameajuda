@@ -4,7 +4,7 @@ import image from '../../assets/respondidos_dev.svg'
 import axios from 'axios'
 import './respondidos.css'
 
-// import list from '../../../dados'
+import imageAvatar from '../../assets/avatar-chamado.png'
 
 function Respondidos() {
     const [chamados, setChamados] = useState([])
@@ -36,14 +36,14 @@ function Respondidos() {
                                         <ul class="list-group" id="contact-list">
                                             <li class="list-group-item">
                                                 <div class="col-xs-12 col-sm-3">
-                                                    <img src={card.imagem} alt="Scott Stevens" class="img-responsive img-circle" />
+                                                    <img src={imageAvatar} alt="Scott Stevens" class="img-responsive img-circle" />
                                                 </div>
                                                 <div class="col-xs-12 col-sm-9">
                                                     <span class="name">{card.nome}</span><br />
                                                     <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
                                                     <span class="visible-xs"> <span class="text-muted">{card.assunto}</span><br /></span>
                                                     <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
-                                                    <span class="visible-xs"> <span class="text-muted">{card.abertura}</span><br /></span>
+                                                    <span class="visible-xs"> <span class="text-muted">{card.descricao}</span><br /></span>
                                                     <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
                                                     <span class="visible-xs"> <span class="text-muted">{card.contato}</span><br /></span>
                                                 </div>

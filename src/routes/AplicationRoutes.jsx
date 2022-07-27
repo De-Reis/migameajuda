@@ -4,9 +4,9 @@ import Formulario from '../pages/Formulario/Formulario'
 import Respondidos from '../pages/Respondidos/Respondidos'
 import NaoRespondidos from '../pages/NaoRespondidos/NaoRespondidos'
 import Menu from '../componentes/Menu/Menu'
+import Footer from '../componentes/Footer/Footer'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from '../componentes/Footer/Footer'
 
 
 function AplicationRoutes() {
