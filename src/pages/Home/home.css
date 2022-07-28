@@ -1,6 +1,7 @@
 body {
     padding:0;
-    margin:0
+    margin:0;
+    
 }
 
 
@@ -15,8 +16,7 @@ body {
     color: #a9a9a9;
     text-align: center;
     background-size: cover;
-    height: 200px;
-    margin-bottom: 100px;
+
 }
 
 .home-apresentacao h3 {
@@ -26,7 +26,9 @@ body {
 
 
 .home-apresentacao h4 {
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+
+
 }
 
 .home-apresentacao hr {
@@ -36,11 +38,10 @@ body {
 .home-frase{
     padding: 0 80px;
     display: flex;
+    margin-top: 100px;
+
     justify-content: space-around;
     padding-top: 50px;
-    padding-bottom: 50px;
-    /* margin-bottom: 200px; */
-    margin-top: 200px;
     background-color: #d3a3e9;
     border-top: 2px solid #A263C0;
 
@@ -62,3 +63,9 @@ body {
 
 
 }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+

@@ -7,9 +7,15 @@
   
 .bg {
   background-color: #d3a3e9;
-  /* font: 600 18px Nunito, sans-serif; */
+  font: 600 18px Nunito, sans-serif;
    }
 
 .navegacao {
   color: white !important;
    }
+
+   .efeito-menu:hover {
+    color:#A263C0 !important;
+    transition: all 0.10s ease-in;
+
+}

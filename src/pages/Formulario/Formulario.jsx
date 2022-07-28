@@ -8,13 +8,12 @@ import axios from 'axios'
 
 
 function Formulario() {
-    const [form, setForm] = useState([])
- 
-    const [newName, setNewName] = useState([])
+    // const [form, setForm] = useState([])
+     const [newName, setNewName] = useState([])
     const [newContact, setNewContact] = useState([])
     const [newSubject, setNewSubject] = useState([])
     const [newDescription, setNewDescription] = useState([])
-
+    
 
     function handleCreateForm() {
         const valueForm = {
@@ -25,24 +24,47 @@ function Formulario() {
             descricao: newDescription,
             status: "aberto",
         }
-         console.log(valueForm)
 
-        axios.post('http://localhost:3000/chamados', {
-            d: Math.random(),
-            nome: newName,
-            contato: newContact,
-            assunto: newSubject,
-            descricao: newDescription,
-            status: "aberto",
-        })
+        if(newName == '') {
+            alert("Favor preencher seu nome")
+            return
+        }
+
+        if(newContact == '') {
+            alert("Favor preencher seu contato")
+            return
+        }
+
+        
+        if(newSubject == '') {
+            alert("Favor preencher o título do seu pedido")
+            return
+        }
+
+        if(newDescription == '') {
+            alert("Favor preencher a descrição do seu pedido")
+            return
+        }
+
+
+    
+       axios.post('https://migameajuda.herokuapp.com/chamados', valueForm
+
+        )
         .then(function (response){
+            setNewName('')
+            setNewContact('')
+            setNewSubject('')
+            setNewDescription('')
+            alert("Pedido enviado com sucesso!")
+
             console.log(response)
         })
         .catch(function (error) {
             console.log(error)
         })
             
-    
+
     }
     return (
         <>
@@ -61,9 +83,10 @@ function Formulario() {
                     value={newName}
                     />
 
-                    <label for="exampleFormControlInput1" className="form-label">Contato:</label>
-                    <input type="email" className="form-control" id="exampleFormControlInput1" 
-                    placeholder="Digite aqui seu WhatsApp" 
+                    <label for="input de numero de telefone" className="form-label">Contato:</label>
+                    <input type="tel" className="form-control" id="telefone" 
+                    pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}"
+                    required placeholder="(00) 90000-0000" 
                     onChange={(e) => setNewContact(e.target.value)}
                     value={newContact}
                     />
@@ -89,7 +112,7 @@ function Formulario() {
                     <button type="button" className="btn-close" disabled aria-label="Close"></button>
                 </div>
                 <div className="form-submeter-botao">
-                    <button type="button" onClick={handleCreateForm} className="btn btn-primary btn-lg form-submeter">Submeter pedido</button>
+                    <button type="button" onClick={handleCreateForm} className="btn btn-primary btn-lg form-submeter efeito">Submeter pedido</button>
                 </div>
                 
             </div>

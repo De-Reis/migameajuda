@@ -101,3 +101,8 @@ ul.c-controls li a:hover {
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
+.efeito:hover {
+    transform: scale(1.1);
+    transition: all 0.20s;
+}
