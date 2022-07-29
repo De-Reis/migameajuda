@@ -33,15 +33,17 @@ body {
 
 .home-apresentacao hr {
     color: #890ec2;
+    padding-bottom: 20px;
+    
 }
 
 .home-frase{
     padding: 0 80px;
     display: flex;
     margin-top: 100px;
-
     justify-content: space-around;
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #d3a3e9;
     border-top: 2px solid #A263C0;
 

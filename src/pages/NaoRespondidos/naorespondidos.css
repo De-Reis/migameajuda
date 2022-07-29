@@ -19,6 +19,15 @@
 }
 
 
+
+.abertos {
+    padding-top: 30px;
+    color: #d3a3e9;
+    font-size: 35px;
+
+    
+}
+
 .c-search > .form-control {
    border-radius: 0px;
    border-width: 0px;
@@ -102,9 +111,14 @@ ul.c-controls li a:hover {
     padding-top: 100px;
 }
 
-.image-avatar {
-    max-width: 100%;
+.card-img {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+
 }
+
 
 .card-row {
     border: 3px solid rgba(51, 51, 51, 0.2);
@@ -121,4 +135,10 @@ ul.c-controls li a:hover {
 .efeito:hover {
     transform: scale(1.1);
     transition: all 0.20s;
+}
+
+
+.tecnologia {
+    font-weight: bold;
+    font-size: large;
 }

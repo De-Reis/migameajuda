@@ -1,3 +1,11 @@
+.abertos {
+    padding-top: 30px;
+    color: #d3a3e9;
+    font-size: 35px;
+
+    
+}
+
 .form-submeter-botao {
     display: block;
     text-align: end;

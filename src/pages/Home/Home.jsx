@@ -9,7 +9,7 @@ function Home() {
         <>
             <Header className="header"
                 image={image}
-                description="duas pessoas segurando um quadro com coração no meio"
+                description="duas pessoas segurando um tablet em tamanho grande com coração no meio"
             >
                 miga meAjuda!
 
@@ -30,7 +30,7 @@ function Home() {
 
             </div>
             <div className="home-frase" >
-                <img className="home-img" src={imageCoffe} alt="ilustração mulheres sentadas tomando café" />
+                <img className="home-img" src={imageCoffe} alt="ilustração mulheres sentadas tomando café e socializando" />
                 <h4>Aqui construimos um lugar seguro e acolhedor para você!</h4>
 
             </div>
