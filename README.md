@@ -4,7 +4,12 @@
 
 <img src="https://media0.giphy.com/media/fb4Fa1bm5UU2fjMfaj/giphy.gif?cid=790b7611458ec02845221c204338e75ff2931a59cd151df5&rid=giphy.gif&ct=g" alt="My cool logo"/> 
 
+
 [Link do projeto]()
+
+
+
+##  Sobre o projeto:
 
 O projeto miga meAjuda é uma ferramenta que tem como principal objetivo criar uma rede colaborativa entre as alunas de um bootcamp. Trata-se de uma estratégia de ensino em que as estudantes aprendem enquanto ensinam umas as outras. Promovendo assim uma melhoria no processo ensino-aprendizagem além de gerar um clima educativo participativo e responsável.
 

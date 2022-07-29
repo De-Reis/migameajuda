@@ -9,10 +9,13 @@ function Home() {
         <>
             <Header className="header"
                 image={image}
-                description="duas pessoas segurando um tablet em tamanho grande com coração no meio"
-            >
+                description="duas pessoas segurando um tablet em tamanho grande com coração no meio">
+
                 miga meAjuda!
 
+                <div className="abertos">
+                    <p> Sua plataforma de ajuda mútua</p>
+                </div>
             </Header>
             <div className="container">
                 <div className="home-apresentacao">

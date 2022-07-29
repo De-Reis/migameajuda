@@ -1,8 +1,6 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-.panel > .list-group .list-group-item:first-child {
-    /*border-top: 1px solid rgb(204, 204, 204);*/
-}
+
 @media (max-width: 767px) {
     .visible-xs {
         display: inline-block !important;

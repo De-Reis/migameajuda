@@ -23,9 +23,9 @@ function NaoRespondidos() {
                 image={image}
                 description="Ilustração de duas pessoas de corpo inteiro com um ponto de interrogação em tamanho grande no meio"
             >
-                Pedidos em aberto
+                Pedidos abertos
                 <div className="abertos">
-                    <p>Verifique aqui os pedidos que ainda não foram respondidos:</p>
+                    <p>Verifique aqui os pedidos não respondidos:</p>
                 </div>
             </Header>
 
@@ -41,7 +41,7 @@ function NaoRespondidos() {
                                 </div>
                                 <div className="col-10 col-sm-10">
                                     <span className="name">{card.nome}</span><br />
-                                    <span className="text-muted tecnologia">{card.tecnologia}</span><br />
+                                    <span className="badge card-tecnologia">{card.tecnologia}</span><br /><br />
                                     <span className="text-muted">{card.assunto}</span><br />
                                     <span className="text-muted">{card.descricao}</span><br />
                                     <span className="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
