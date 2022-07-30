@@ -22,7 +22,7 @@ function NaoRespondidos() {
             <Header
                 image={image}
                 description="Ilustração de duas pessoas de corpo inteiro com um ponto de interrogação em tamanho grande no meio"
-                subtitulo="Verifique aqui todos os pedidos já respondidos"
+                subtitulo="Verifique aqui todos os pedidos não respondidos"
 
             >
                 Pedidos abertos

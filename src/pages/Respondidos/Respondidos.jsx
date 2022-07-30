@@ -22,7 +22,7 @@ function Respondidos() {
             <Header
                 image={image}
                 description="Ilustração de mulher branca sentada digitando em um notbook com um copo de café ao lado"
-                subtitulo="Verifique aqui os pedidos que já foram respondidos">   
+                subtitulo="Verifique aqui os pedidos já respondidos">   
                 Pedidos respondidos
 
             </Header>
