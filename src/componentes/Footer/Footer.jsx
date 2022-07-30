@@ -16,7 +16,7 @@ function Footer() {
                             <Link className="link" to="/Formulario">miga meAjuda!</Link>
                         </p>
                     </div>
-                        <div class="footer_redes-sociais">
+                        <div className="footer_redes-sociais">
                             <p>Siga-nos:</p>
                             <a className="img__redes" href="https://www.instagram.com/denisexreis/?hl=pt-br" target="_blank">
                                 <img src={imgInstagram} alt="Íconde do Instagram" />
@@ -32,7 +32,7 @@ function Footer() {
                             </a>
                         </div>
                 </div>
-                <div class="footer_cc">
+                <div className="footer_cc">
                     <p>Desenvolvido por Denise Reis | 2022 - Reprograma © Copyright</p>
                 </div>
             </footer>
