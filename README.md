@@ -5,7 +5,7 @@
 <img src="https://media0.giphy.com/media/fb4Fa1bm5UU2fjMfaj/giphy.gif?cid=790b7611458ec02845221c204338e75ff2931a59cd151df5&rid=giphy.gif&ct=g" alt="meu site miga meAjuda!"/> 
 
 
-[Link do projeto]()
+[Link do projeto](https://migameajuda.netlify.app/)
 
 
 
