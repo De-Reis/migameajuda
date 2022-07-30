@@ -97,11 +97,11 @@ Apaixonada pela vida e pelo meu doguinho Flóki :purple_heart:
 
 <img style="border-radius: 50%;" src="https://media4.giphy.com/media/xxiMwKMLRY5lHvVeFc/giphy.gif?cid=790b76117b4ea0f67757def8e4c92dd0a98565bfcd57dda4&rid=giphy.gif&ct=g" width="100px;" alt="Foto Denise"/>
  <br />
- <sub><b>Marina Maré</b></sub></a> :ocean:
+ <sub><b>Denise Reis</b></sub></a> 
 
 
 Feito com :green_heart: por Denise Reis com apoio da {reprograma} 
 
 👋🏽 Entre em contato!
 
-[Linkedin Badge](https://www.linkedin.com/in/denise-reis-0a643b7b/) 
+[Linkedin](https://www.linkedin.com/in/denise-reis-0a643b7b/) 
