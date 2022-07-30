@@ -22,11 +22,9 @@ function Respondidos() {
             <Header
                 image={image}
                 description="Ilustração de mulher branca sentada digitando em um notbook com um copo de café ao lado"
-            >
+                subtitulo="Verifique aqui os pedidos que já foram respondidos">   
                 Pedidos respondidos
-                <div className="abertos">
-                    <p>Verifique aqui todos os pedidos já respondidos:</p>
-                </div>
+
             </Header>
 
             {

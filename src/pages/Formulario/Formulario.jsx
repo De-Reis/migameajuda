@@ -81,11 +81,9 @@ function Formulario() {
             <Header
                 image={image}
                 description="ilustracao de mulher negra preenchendo um formulário"
-            >
+                subtitulo="registre aqui seu pedido de ajuda:">   
                 miga,
-                <div className="abertos">
-                    <p> registre aqui seu pedido de ajuda:</p>
-                </div>
+
             </Header>
             <div className="container">
                 <div className="mb-3">

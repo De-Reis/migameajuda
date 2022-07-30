@@ -2,7 +2,7 @@
 
 ## miga meAjuda! 
 
-<img src="https://media0.giphy.com/media/fb4Fa1bm5UU2fjMfaj/giphy.gif?cid=790b7611458ec02845221c204338e75ff2931a59cd151df5&rid=giphy.gif&ct=g" alt="My cool logo"/> 
+<img src="https://media0.giphy.com/media/fb4Fa1bm5UU2fjMfaj/giphy.gif?cid=790b7611458ec02845221c204338e75ff2931a59cd151df5&rid=giphy.gif&ct=g" alt="meu site miga meAjuda!"/> 
 
 
 [Link do projeto]()
@@ -65,4 +65,14 @@ Autor(s): Luiz Marcelo Darroz , Jean Carlos Nicolodi,  Cleci Teresinha Werner da
 
 MONTEIRO, Carlos Augusto. A dimensão da pobreza, da fome e da desnutrição no Brasil. Estudos Avançados, v. 9 n. 24, p. 195-207, 1995. https://doi.org/10.1590/S0103-40141995000200009.
 
+
+#### Sobre a autora ####
+
+Estudante Front-end, 31 anos em transição de carreira.
+Apaixonada pela vida e pelo meu doguinho Flóki 
+
+
+<div style="text-align:center"><img src="https://media0.giphy.com/media/xxiMwKMLRY5lHvVeFc/giphy.gif?cid=790b7611ae1a5c163d69ad8cc4c1eb2f1d713296b321fe9f&rid=giphy.gif&ct=g" /></div>
+
+:red_heart:
 

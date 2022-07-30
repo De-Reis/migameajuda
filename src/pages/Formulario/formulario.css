@@ -29,3 +29,6 @@
     transition: all 0.20s;
 }
 
+.card-tecnologia {
+    background-color: #d3a3e9 !important;
+}
